@@ -1,4 +1,4 @@
-const quote = document.getElementById("quote");
+const quotes = document.getElementById("quotes");
 const generateQuote = document.getElementById("generateQuote");
 
 const quotesArray = [
@@ -49,10 +49,11 @@ const quotesArray = [
   `“Believe in yourself and in the power of Allah, and you will achieve greatness.” – Prophet Muhammad (peace be upon him)`,
 ];
 
-quote.textContent = quotesArray[Math.floor(Math.random() * quotesArray.length)];
+quotes.textContent =
+  quotesArray[Math.floor(Math.random() * quotesArray.length)];
 
 generateQuote.addEventListener("click", function () {
   randomGenerator = Math.floor(Math.random() * quotesArray.length);
 
-  quote.textContent = quotesArray[randomGenerator];
+  quotes.textContent = quotesArray[randomGenerator];
 });
