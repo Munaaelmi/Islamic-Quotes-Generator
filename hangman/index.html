@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>JS Tutorial</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="container">
+        <div class="playAgain">
+          <button id="restartGame">New game</button>
+        </div>
+
+        <section class="title">
+          <h1 class="hangmanTitle">Hangman</h1>
+        </section>
+
+        <section class="gameDescription">
+          <h3 class="description">
+            Guess the correct word before you run out of lives 🤔
+          </h3>
+        </section>
+
+        <section class="letterLines">
+          <div class="letterContainer">
+            <p id="letter1"></p>
+            <hr />
+          </div>
+
+          <div class="letterContainer">
+            <p id="letter2"></p>
+            <hr />
+          </div>
+
+          <div class="letterContainer">
+            <p id="letter3"></p>
+            <hr />
+          </div>
+
+          <div class="letterContainer">
+            <p id="letter4"></p>
+            <hr />
+          </div>
+
+          <div class="letterContainer">
+            <p id="letter5"></p>
+            <hr />
+          </div>
+
+          <div class="letterContainer">
+            <p id="letter6"></p>
+            <hr />
+          </div>
+
+          <div class="letterContainer">
+            <p id="letter7"></p>
+            <hr />
+          </div>
+        </section>
+
+        <section class="letters">
+          <h4 class="chooseLetter">Choose a letter</h4>
+          <div id="alphabet">
+            <div class="letter">
+              <p id="a">a</p>
+            </div>
+            <div class="letter">
+              <p id="b">b</p>
+            </div>
+            <div class="letter">
+              <p id="c">c</p>
+            </div>
+            <div class="letter">
+              <p id="d">d</p>
+            </div>
+            <div class="letter">
+              <p id="e">e</p>
+            </div>
+            <div class="letter">
+              <p id="f">f</p>
+            </div>
+            <div class="letter">
+              <p id="g">g</p>
+            </div>
+            <div class="letter">
+              <p id="h">h</p>
+            </div>
+            <div class="letter">
+              <p id="i">i</p>
+            </div>
+            <div class="letter">
+              <p id="j">j</p>
+            </div>
+            <div class="letter">
+              <p id="k">k</p>
+            </div>
+            <div class="letter">
+              <p id="l">l</p>
+            </div>
+            <div class="letter">
+              <p id="m">m</p>
+            </div>
+            <div class="letter">
+              <p id="n">n</p>
+            </div>
+            <div class="letter">
+              <p id="o">o</p>
+            </div>
+            <div class="letter">
+              <p id="p">p</p>
+            </div>
+            <div class="letter">
+              <p id="q">q</p>
+            </div>
+            <div class="letter">
+              <p id="r">r</p>
+            </div>
+            <div class="letter">
+              <p id="s">s</p>
+            </div>
+            <div class="letter">
+              <p id="t">t</p>
+            </div>
+            <div class="letter">
+              <p id="u">u</p>
+            </div>
+            <div class="letter">
+              <p id="v">v</p>
+            </div>
+            <div class="letter">
+              <p id="w">w</p>
+            </div>
+            <div class="letter">
+              <p id="x">x</p>
+            </div>
+            <div class="letter">
+              <p id="y">y</p>
+            </div>
+            <div class="letter">
+              <p id="z">z</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lives">
+          <div class="livesLeft">
+            <h4>Number of lives left:</h4>
+            <h2 id="count"></h2>
+            <h2 id="livesOver"></h2>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="../hangman/js/main.js"></script>
+  </body>
+</html>

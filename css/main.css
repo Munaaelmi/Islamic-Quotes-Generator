@@ -1,0 +1,81 @@
+* {
+  text-align: center;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fdf0d5;
+}
+#container {
+  border: none;
+  width: 50%;
+  margin: 100px auto 0 auto;
+  background-color: #669bbc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.title {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.description {
+  margin-bottom: 50px;
+}
+.letterLines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px; /* Adjust spacing between letters */
+}
+
+hr {
+  width: 50px;
+  margin: 5px 0 0 0;
+  border: 1px solid black;
+}
+
+.chooseLetter {
+  margin: 10px;
+}
+#alphabet {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.letter {
+  border: 1px solid #ff9f1c;
+  border-radius: 5px;
+  width: 30px;
+  cursor: pointer;
+  background-color: #ffbf69;
+}
+.hidden {
+  border: 2px solid #ff9f1c;
+  border-radius: 5px;
+  margin: 0;
+}
+.lives {
+  margin: 20px;
+}
+
+.opac {
+  opacity: 50%;
+}
+
+button {
+  background: #ff9f1c;
+  border: none;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
